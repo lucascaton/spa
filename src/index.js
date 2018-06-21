@@ -1,8 +1,2 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// https://github.com/facebook/create-react-app/issues/3052#issuecomment-330868560
+require('./index.jsx');
